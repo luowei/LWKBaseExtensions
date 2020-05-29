@@ -218,3 +218,15 @@
 
 @end
 
+@implementation NSString (Sandbox)
+
++(NSString *)documentPath{
+    return NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+}
+
+-(BOOL)isExsitFilePath{
+    return [[NSFileManager defaultManager] fileExistsAtPath:self];
+}
+
+@end
+

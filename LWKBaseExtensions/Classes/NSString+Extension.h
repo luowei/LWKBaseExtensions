@@ -79,3 +79,11 @@
 
 @end
 
+
+@interface NSString (Sandbox)
+
++(NSString *)documentPath;
+-(BOOL)isExsitFilePath;
+
+@end
+
