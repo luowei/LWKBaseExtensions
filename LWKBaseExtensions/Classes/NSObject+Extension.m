@@ -80,6 +80,7 @@
     if (@available(iOS 10.0, *)) {
         UIImpactFeedbackGenerator*impactLight = [[UIImpactFeedbackGenerator alloc]initWithStyle:UIImpactFeedbackStyleLight];
         [impactLight impactOccurred];
+
     }else{
 //    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
 //    AudioServicesPlayAlertSound(kSystemSoundID_Vibrate);
@@ -92,7 +93,7 @@
 }
 
 -(BOOL)is_iPad {
-    return UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
+    return [UIDevice.currentDevice userInterfaceIdiom] == UIUserInterfaceIdiomPad;
 }
 
 @end
