@@ -166,6 +166,20 @@
 
 }
 
+//裁切圆角
+-(UIImage *)withRoundedCorners:(CGFloat)radius {
+    CGFloat maxRadius = MIN(self.size.width, self.size.height)/2;
+    CGFloat cornerRadius = radius > 0 && radius <= maxRadius ? radius : maxRadius;
+    UIGraphicsBeginImageContextWithOptions(self.size, false, UIScreen.mainScreen.scale );
+    CGRect rect = CGRectMake(0, 0, self.size.width, self.size.height);
+    UIBezierPath *bezierPath = [UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:cornerRadius];
+    [bezierPath addClip];
+    [self drawInRect:rect];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+}
+
 //把一张图片缩放到指定大小
 - (UIImage *)imageToscaledSize:(CGSize)newSize {
     //UIGraphicsBeginImageContext(newSize);
