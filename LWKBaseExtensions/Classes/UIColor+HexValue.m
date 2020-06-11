@@ -262,4 +262,42 @@
     return (colorBrightness >= .5f);
 }
 
+//亮度增加 百分之percentage
+-(UIColor *)lighterByPercentage:(CGFloat)percentage {
+    return [self adjustByPercentage:fabs(percentage)];
+}
+
+//亮度减小 百分之percentage
+-(UIColor *)darkerByPercentage:(CGFloat)percentage {
+    return [self adjustByPercentage:-1 * fabs(percentage)];
+}
+
+-(UIColor *)adjustByPercentage:(CGFloat)percentage {
+    CGFloat red = 0, green = 0, blue = 0, alpha = 0;
+    if([self getRed:&red green:&green blue:&blue alpha:&alpha]){
+        return [UIColor colorWithRed:MIN(red+percentage/100,1.0) green:MIN(green+percentage/100,1.0) blue:MIN(blue+percentage/100,1.0) alpha:alpha];
+    }else{
+        return nil;
+    }
+}
+
+//键盘小文字颜色，根据大文字颜色自动调整
+-(UIColor *)topTipColor {
+    if([self isLight]){
+        return [self darkerByPercentage:20]; //变暗20%
+    }else{
+        return [self lighterByPercentage:20]; //增亮20%
+    }
+}
+
+//弹窗背景色
+-(UIColor *)adjustColorWithPercentage:(CGFloat)percentage {
+    if([self isLight]){
+        return [self darkerByPercentage:percentage]; //变暗
+    }else{
+        return [self lighterByPercentage:percentage]; //增亮
+    }
+}
+
+
 @end
