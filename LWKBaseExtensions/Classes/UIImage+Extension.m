@@ -45,15 +45,15 @@
     return image;
 }
 
-- (UIImage *)imageWithTintColor:(UIColor *)tintColor {
-    return [self imageWithTintColor:tintColor blendMode:kCGBlendModeDestinationIn];
+- (UIImage *)imageWith_TintColor:(UIColor *)tintColor {
+    return [self imageWith_TintColor:tintColor blendMode:kCGBlendModeDestinationIn];
 }
 
 - (UIImage *)imageWithGradientTintColor:(UIColor *)tintColor {
-    return [self imageWithTintColor:tintColor blendMode:kCGBlendModeOverlay];
+    return [self imageWith_TintColor:tintColor blendMode:kCGBlendModeOverlay];
 }
 
-- (UIImage *)imageWithTintColor:(UIColor *)tintColor blendMode:(CGBlendMode)blendMode {
+- (UIImage *)imageWith_TintColor:(UIColor *)tintColor blendMode:(CGBlendMode)blendMode {
     //We want to keep alpha, set opaque to NO; Use 0.0f for scale to use the scale factor of the device’s main screen.
     UIGraphicsBeginImageContextWithOptions(self.size, NO, 0.0f);
     [tintColor setFill];

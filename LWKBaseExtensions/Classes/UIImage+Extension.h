@@ -18,11 +18,11 @@
 */
 - (UIImage *)imageWithOverlayColor:(UIColor *)color;
 
-- (UIImage *)imageWithTintColor:(UIColor *)tintColor;
+- (UIImage *)imageWith_TintColor:(UIColor *)tintColor;
 
 - (UIImage *)imageWithGradientTintColor:(UIColor *)tintColor;
 
-- (UIImage *)imageWithTintColor:(UIColor *)tintColor blendMode:(CGBlendMode)blendMode;
+- (UIImage *)imageWith_TintColor:(UIColor *)tintColor blendMode:(CGBlendMode)blendMode;
 
 //根据颜色与矩形区生成一张图片
 + (UIImage *)imageFromColor:(UIColor *)color withRect:(CGRect)rect;
