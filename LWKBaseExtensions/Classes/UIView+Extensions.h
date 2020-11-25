@@ -66,6 +66,9 @@
 //更新外观
 @interface UIView (updateAppearance)
 - (void)updateAppearance;
+
+//判断是否是深色模式
+-(BOOL)isDarkStyle;
 @end
 
 @interface UIView (CallCycle)

@@ -153,6 +153,16 @@
 
 }
 
+//判断是否是深色模式
+-(BOOL)isDarkStyle {
+    if(@available(iOS 12.0,*)){
+        if(self.traitCollection.userInterfaceStyle == UIUserInterfaceStyleDark){
+            return YES;
+        }
+    }
+    return NO;
+}
+
 @end
 
 @implementation UIView (CallCycle)
