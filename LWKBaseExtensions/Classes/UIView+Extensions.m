@@ -81,7 +81,7 @@
             break;
         }
     }
-    return responder;
+    return [responder isKindOfClass:clazz] ? responder : nil;
 }
 
 @end

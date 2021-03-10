@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA7BB75425F8F50B00557232 /* UIPrintPageRenderer+Extentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB73125F8F50B00557232 /* UIPrintPageRenderer+Extentsion.m */; };
+		EA7BB75525F8F50B00557232 /* NSObject+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB73225F8F50B00557232 /* NSObject+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB75625F8F50B00557232 /* UIResponder+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB73325F8F50B00557232 /* UIResponder+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB75725F8F50B00557232 /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB73425F8F50B00557232 /* UIView+Extensions.m */; };
+		EA7BB75825F8F50B00557232 /* UIPasteboard+Addtions.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB73525F8F50B00557232 /* UIPasteboard+Addtions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB75925F8F50B00557232 /* NSData+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB73625F8F50B00557232 /* NSData+Extension.m */; };
+		EA7BB75A25F8F50B00557232 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB73725F8F50B00557232 /* NSArray+Extension.m */; };
+		EA7BB75B25F8F50B00557232 /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB73825F8F50B00557232 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB75C25F8F50B00557232 /* ALAsset+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB73925F8F50B00557232 /* ALAsset+Extension.m */; };
+		EA7BB75D25F8F50B00557232 /* UIButton+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB73A25F8F50B00557232 /* UIButton+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB75E25F8F50B00557232 /* UIDevice+Addtions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB73B25F8F50B00557232 /* UIDevice+Addtions.m */; };
+		EA7BB75F25F8F50B00557232 /* UIColor+HexValue.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB73C25F8F50B00557232 /* UIColor+HexValue.m */; };
+		EA7BB76025F8F50B00557232 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB73D25F8F50B00557232 /* UIImage+Extension.m */; };
+		EA7BB76225F8F50B00557232 /* NSDictionary+KeyPath.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB73F25F8F50B00557232 /* NSDictionary+KeyPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB76325F8F50B00557232 /* UIColor+CrossFade.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB74025F8F50B00557232 /* UIColor+CrossFade.m */; };
+		EA7BB76425F8F50B00557232 /* CALayer+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB74125F8F50B00557232 /* CALayer+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB76525F8F50B00557232 /* NSURL+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB74225F8F50B00557232 /* NSURL+Extension.m */; };
+		EA7BB76625F8F50B00557232 /* UIResponder+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB74325F8F50B00557232 /* UIResponder+Extension.m */; };
+		EA7BB76725F8F50B00557232 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB74425F8F50B00557232 /* NSObject+Extension.m */; };
+		EA7BB76825F8F50B00557232 /* UIPrintPageRenderer+Extentsion.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB74525F8F50B00557232 /* UIPrintPageRenderer+Extentsion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB76925F8F50B00557232 /* ALAsset+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB74625F8F50B00557232 /* ALAsset+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB76A25F8F50B00557232 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB74725F8F50B00557232 /* NSString+Extension.m */; };
+		EA7BB76B25F8F50B00557232 /* NSArray+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB74825F8F50B00557232 /* NSArray+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB76C25F8F50B00557232 /* NSData+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB74925F8F50B00557232 /* NSData+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB76D25F8F50B00557232 /* UIView+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB74A25F8F50B00557232 /* UIView+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB76E25F8F50B00557232 /* UIPasteboard+Addtions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB74B25F8F50B00557232 /* UIPasteboard+Addtions.m */; };
+		EA7BB76F25F8F50B00557232 /* NSDictionary+KeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB74C25F8F50B00557232 /* NSDictionary+KeyPath.m */; };
+		EA7BB77025F8F50B00557232 /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB74D25F8F50B00557232 /* UIImage+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB77125F8F50B00557232 /* UIColor+HexValue.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB74E25F8F50B00557232 /* UIColor+HexValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB77225F8F50B00557232 /* UIDevice+Addtions.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB74F25F8F50B00557232 /* UIDevice+Addtions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB77325F8F50B00557232 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB75025F8F50B00557232 /* UIButton+Extension.m */; };
+		EA7BB77425F8F50B00557232 /* NSURL+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB75125F8F50B00557232 /* NSURL+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB77525F8F50B00557232 /* CALayer+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB75225F8F50B00557232 /* CALayer+Extension.m */; };
+		EA7BB77625F8F50B00557232 /* UIColor+CrossFade.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB75325F8F50B00557232 /* UIColor+CrossFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA7BB72525F8F4DA00557232 /* LWKBaseExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LWKBaseExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7BB72925F8F4DA00557232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7BB73125F8F50B00557232 /* UIPrintPageRenderer+Extentsion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPrintPageRenderer+Extentsion.m"; sourceTree = "<group>"; };
+		EA7BB73225F8F50B00557232 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		EA7BB73325F8F50B00557232 /* UIResponder+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Extension.h"; sourceTree = "<group>"; };
+		EA7BB73425F8F50B00557232 /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		EA7BB73525F8F50B00557232 /* UIPasteboard+Addtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+Addtions.h"; sourceTree = "<group>"; };
+		EA7BB73625F8F50B00557232 /* NSData+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Extension.m"; sourceTree = "<group>"; };
+		EA7BB73725F8F50B00557232 /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		EA7BB73825F8F50B00557232 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		EA7BB73925F8F50B00557232 /* ALAsset+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAsset+Extension.m"; sourceTree = "<group>"; };
+		EA7BB73A25F8F50B00557232 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		EA7BB73B25F8F50B00557232 /* UIDevice+Addtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Addtions.m"; sourceTree = "<group>"; };
+		EA7BB73C25F8F50B00557232 /* UIColor+HexValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexValue.m"; sourceTree = "<group>"; };
+		EA7BB73D25F8F50B00557232 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		EA7BB73F25F8F50B00557232 /* NSDictionary+KeyPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KeyPath.h"; sourceTree = "<group>"; };
+		EA7BB74025F8F50B00557232 /* UIColor+CrossFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CrossFade.m"; sourceTree = "<group>"; };
+		EA7BB74125F8F50B00557232 /* CALayer+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Extension.h"; sourceTree = "<group>"; };
+		EA7BB74225F8F50B00557232 /* NSURL+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Extension.m"; sourceTree = "<group>"; };
+		EA7BB74325F8F50B00557232 /* UIResponder+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Extension.m"; sourceTree = "<group>"; };
+		EA7BB74425F8F50B00557232 /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		EA7BB74525F8F50B00557232 /* UIPrintPageRenderer+Extentsion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPrintPageRenderer+Extentsion.h"; sourceTree = "<group>"; };
+		EA7BB74625F8F50B00557232 /* ALAsset+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAsset+Extension.h"; sourceTree = "<group>"; };
+		EA7BB74725F8F50B00557232 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		EA7BB74825F8F50B00557232 /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		EA7BB74925F8F50B00557232 /* NSData+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Extension.h"; sourceTree = "<group>"; };
+		EA7BB74A25F8F50B00557232 /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
+		EA7BB74B25F8F50B00557232 /* UIPasteboard+Addtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+Addtions.m"; sourceTree = "<group>"; };
+		EA7BB74C25F8F50B00557232 /* NSDictionary+KeyPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KeyPath.m"; sourceTree = "<group>"; };
+		EA7BB74D25F8F50B00557232 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		EA7BB74E25F8F50B00557232 /* UIColor+HexValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexValue.h"; sourceTree = "<group>"; };
+		EA7BB74F25F8F50B00557232 /* UIDevice+Addtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Addtions.h"; sourceTree = "<group>"; };
+		EA7BB75025F8F50B00557232 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		EA7BB75125F8F50B00557232 /* NSURL+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Extension.h"; sourceTree = "<group>"; };
+		EA7BB75225F8F50B00557232 /* CALayer+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Extension.m"; sourceTree = "<group>"; };
+		EA7BB75325F8F50B00557232 /* UIColor+CrossFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CrossFade.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA7BB72225F8F4D900557232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA7BB71B25F8F4D900557232 = {
+			isa = PBXGroup;
+			children = (
+				EA7BB72725F8F4DA00557232 /* LWKBaseExtensions */,
+				EA7BB72625F8F4DA00557232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA7BB72625F8F4DA00557232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BB72525F8F4DA00557232 /* LWKBaseExtensions.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA7BB72725F8F4DA00557232 /* LWKBaseExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BB73025F8F50B00557232 /* Classes */,
+				EA7BB72925F8F4DA00557232 /* Info.plist */,
+			);
+			path = LWKBaseExtensions;
+			sourceTree = "<group>";
+		};
+		EA7BB73025F8F50B00557232 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BB73125F8F50B00557232 /* UIPrintPageRenderer+Extentsion.m */,
+				EA7BB73225F8F50B00557232 /* NSObject+Extension.h */,
+				EA7BB73325F8F50B00557232 /* UIResponder+Extension.h */,
+				EA7BB73425F8F50B00557232 /* UIView+Extensions.m */,
+				EA7BB73525F8F50B00557232 /* UIPasteboard+Addtions.h */,
+				EA7BB73625F8F50B00557232 /* NSData+Extension.m */,
+				EA7BB73725F8F50B00557232 /* NSArray+Extension.m */,
+				EA7BB73825F8F50B00557232 /* NSString+Extension.h */,
+				EA7BB73925F8F50B00557232 /* ALAsset+Extension.m */,
+				EA7BB73A25F8F50B00557232 /* UIButton+Extension.h */,
+				EA7BB73B25F8F50B00557232 /* UIDevice+Addtions.m */,
+				EA7BB73C25F8F50B00557232 /* UIColor+HexValue.m */,
+				EA7BB73D25F8F50B00557232 /* UIImage+Extension.m */,
+				EA7BB73F25F8F50B00557232 /* NSDictionary+KeyPath.h */,
+				EA7BB74025F8F50B00557232 /* UIColor+CrossFade.m */,
+				EA7BB74125F8F50B00557232 /* CALayer+Extension.h */,
+				EA7BB74225F8F50B00557232 /* NSURL+Extension.m */,
+				EA7BB74325F8F50B00557232 /* UIResponder+Extension.m */,
+				EA7BB74425F8F50B00557232 /* NSObject+Extension.m */,
+				EA7BB74525F8F50B00557232 /* UIPrintPageRenderer+Extentsion.h */,
+				EA7BB74625F8F50B00557232 /* ALAsset+Extension.h */,
+				EA7BB74725F8F50B00557232 /* NSString+Extension.m */,
+				EA7BB74825F8F50B00557232 /* NSArray+Extension.h */,
+				EA7BB74925F8F50B00557232 /* NSData+Extension.h */,
+				EA7BB74A25F8F50B00557232 /* UIView+Extensions.h */,
+				EA7BB74B25F8F50B00557232 /* UIPasteboard+Addtions.m */,
+				EA7BB74C25F8F50B00557232 /* NSDictionary+KeyPath.m */,
+				EA7BB74D25F8F50B00557232 /* UIImage+Extension.h */,
+				EA7BB74E25F8F50B00557232 /* UIColor+HexValue.h */,
+				EA7BB74F25F8F50B00557232 /* UIDevice+Addtions.h */,
+				EA7BB75025F8F50B00557232 /* UIButton+Extension.m */,
+				EA7BB75125F8F50B00557232 /* NSURL+Extension.h */,
+				EA7BB75225F8F50B00557232 /* CALayer+Extension.m */,
+				EA7BB75325F8F50B00557232 /* UIColor+CrossFade.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EA7BB72025F8F4D900557232 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7BB77025F8F50B00557232 /* UIImage+Extension.h in Headers */,
+				EA7BB76225F8F50B00557232 /* NSDictionary+KeyPath.h in Headers */,
+				EA7BB77225F8F50B00557232 /* UIDevice+Addtions.h in Headers */,
+				EA7BB77425F8F50B00557232 /* NSURL+Extension.h in Headers */,
+				EA7BB77125F8F50B00557232 /* UIColor+HexValue.h in Headers */,
+				EA7BB76D25F8F50B00557232 /* UIView+Extensions.h in Headers */,
+				EA7BB76B25F8F50B00557232 /* NSArray+Extension.h in Headers */,
+				EA7BB76925F8F50B00557232 /* ALAsset+Extension.h in Headers */,
+				EA7BB75D25F8F50B00557232 /* UIButton+Extension.h in Headers */,
+				EA7BB76C25F8F50B00557232 /* NSData+Extension.h in Headers */,
+				EA7BB76825F8F50B00557232 /* UIPrintPageRenderer+Extentsion.h in Headers */,
+				EA7BB75525F8F50B00557232 /* NSObject+Extension.h in Headers */,
+				EA7BB76425F8F50B00557232 /* CALayer+Extension.h in Headers */,
+				EA7BB75825F8F50B00557232 /* UIPasteboard+Addtions.h in Headers */,
+				EA7BB75B25F8F50B00557232 /* NSString+Extension.h in Headers */,
+				EA7BB77625F8F50B00557232 /* UIColor+CrossFade.h in Headers */,
+				EA7BB75625F8F50B00557232 /* UIResponder+Extension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EA7BB72425F8F4D900557232 /* LWKBaseExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7BB72D25F8F4DA00557232 /* Build configuration list for PBXNativeTarget "LWKBaseExtensions" */;
+			buildPhases = (
+				EA7BB72025F8F4D900557232 /* Headers */,
+				EA7BB72125F8F4D900557232 /* Sources */,
+				EA7BB72225F8F4D900557232 /* Frameworks */,
+				EA7BB72325F8F4D900557232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWKBaseExtensions;
+			productName = LWKBaseExtensions;
+			productReference = EA7BB72525F8F4DA00557232 /* LWKBaseExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA7BB71C25F8F4D900557232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Luo Wei";
+				TargetAttributes = {
+					EA7BB72425F8F4D900557232 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = EA7BB71F25F8F4D900557232 /* Build configuration list for PBXProject "LWKBaseExtensions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA7BB71B25F8F4D900557232;
+			productRefGroup = EA7BB72625F8F4DA00557232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA7BB72425F8F4D900557232 /* LWKBaseExtensions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA7BB72325F8F4D900557232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA7BB72125F8F4D900557232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7BB75725F8F50B00557232 /* UIView+Extensions.m in Sources */,
+				EA7BB77325F8F50B00557232 /* UIButton+Extension.m in Sources */,
+				EA7BB75C25F8F50B00557232 /* ALAsset+Extension.m in Sources */,
+				EA7BB76625F8F50B00557232 /* UIResponder+Extension.m in Sources */,
+				EA7BB76525F8F50B00557232 /* NSURL+Extension.m in Sources */,
+				EA7BB76F25F8F50B00557232 /* NSDictionary+KeyPath.m in Sources */,
+				EA7BB77525F8F50B00557232 /* CALayer+Extension.m in Sources */,
+				EA7BB75925F8F50B00557232 /* NSData+Extension.m in Sources */,
+				EA7BB76325F8F50B00557232 /* UIColor+CrossFade.m in Sources */,
+				EA7BB76E25F8F50B00557232 /* UIPasteboard+Addtions.m in Sources */,
+				EA7BB76A25F8F50B00557232 /* NSString+Extension.m in Sources */,
+				EA7BB75A25F8F50B00557232 /* NSArray+Extension.m in Sources */,
+				EA7BB75425F8F50B00557232 /* UIPrintPageRenderer+Extentsion.m in Sources */,
+				EA7BB75F25F8F50B00557232 /* UIColor+HexValue.m in Sources */,
+				EA7BB75E25F8F50B00557232 /* UIDevice+Addtions.m in Sources */,
+				EA7BB76025F8F50B00557232 /* UIImage+Extension.m in Sources */,
+				EA7BB76725F8F50B00557232 /* NSObject+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA7BB72B25F8F4DA00557232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA7BB72C25F8F4DA00557232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA7BB72E25F8F4DA00557232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G3A2KYKYBU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LWKBaseExtensions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LWKBaseExtensions;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA7BB72F25F8F4DA00557232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G3A2KYKYBU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LWKBaseExtensions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LWKBaseExtensions;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA7BB71F25F8F4D900557232 /* Build configuration list for PBXProject "LWKBaseExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7BB72B25F8F4DA00557232 /* Debug */,
+				EA7BB72C25F8F4DA00557232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7BB72D25F8F4DA00557232 /* Build configuration list for PBXNativeTarget "LWKBaseExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7BB72E25F8F4DA00557232 /* Debug */,
+				EA7BB72F25F8F4DA00557232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA7BB71C25F8F4D900557232 /* Project object */;
+}
